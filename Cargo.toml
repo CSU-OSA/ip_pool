@@ -1,0 +1,15 @@
+[package]
+name = "ip_pool"
+version = "0.1.0"
+author = "c76d3656e"
+edition = "2022"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.0.1"
+reqwest = { version = "0.11.12", features = ["json"] }
+http="0.2.3"
+serde_json = "1.0.79"
+regex = "1.5.5"
+tokio = "1.17.0"
